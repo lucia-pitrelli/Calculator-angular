@@ -1,0 +1,29 @@
+<div class="calculadora">
+  <app-display entrada="{{ expresion }}"></app-display>
+  <div class="fila">
+    <app-boton valor="1" (onClick)="agregarExpresion($event)"></app-boton>
+    <app-boton valor="2" (onClick)="agregarExpresion($event)"></app-boton>
+    <app-boton valor="3" (onClick)="agregarExpresion($event)"></app-boton>
+    <app-boton valor="+" (onClick)="agregarExpresion($event)"></app-boton>
+  </div>
+  <div class="fila">
+    <app-boton valor="4" (onClick)="agregarExpresion($event)"></app-boton>
+    <app-boton valor="5" (onClick)="agregarExpresion($event)"></app-boton>
+    <app-boton valor="6" (onClick)="agregarExpresion($event)"></app-boton>
+    <app-boton valor="-" (onClick)="agregarExpresion($event)"></app-boton>
+  </div>
+  <div class="fila">
+    <app-boton valor="7" (onClick)="agregarExpresion($event)"></app-boton>
+    <app-boton valor="8" (onClick)="agregarExpresion($event)"></app-boton>
+    <app-boton valor="9" (onClick)="agregarExpresion($event)"></app-boton>
+    <app-boton valor="*" (onClick)="agregarExpresion($event)"></app-boton>
+  </div>
+  <div class="fila">
+    <app-boton valor="=" (onClick)="agregarExpresion($event)"></app-boton>
+    <app-boton valor="0" (onClick)="agregarExpresion($event)"></app-boton>
+    <app-boton valor="." (onClick)="agregarExpresion($event)"></app-boton>
+    <app-boton valor="/" (onClick)="agregarExpresion($event)"></app-boton>
+  </div>
+
+  <app-btn-clear (onClick)="limpiarDisplay()"></app-btn-clear>
+</div>

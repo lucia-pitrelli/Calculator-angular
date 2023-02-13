@@ -1,0 +1,34 @@
+.boton {
+  height: 80px;
+  width: 80px;
+  margin: 4px;
+
+  border: 3px solid white;
+  border-radius: 20px;
+
+  background-color: #1b1b32;
+  color: white;
+
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Lato, sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+  user-select: none;
+}
+
+.boton:hover {
+  background-color: #5a01a7;
+}
+
+.operador {
+  background-color: #00471b;
+}
+
+.operador:hover {
+  background-color: #ff6600;
+}
